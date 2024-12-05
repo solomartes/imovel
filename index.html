@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vale Imobiliária</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adicionando Bootstrap (se não estiver no seu projeto ainda) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <h1 class="titulo-header text-center">Bem-vindo ao Vale Imobiliária</h1>
+      
+        <!-- Barra de navegação -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+               
+                <a class="navbar-brand" href="index.html">Vale Imobiliária</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                       
+                        <li class="nav-item">
+                            <a class="nav-link" href="#destinos">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quem-somos">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                      
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+ 
+    <main>
+<!-- Seção "Destinos" -->
+<section id="destinos" class="container py-5">
+    <img src="img/2024_01_12_MERCADO-IMOBILIARIO_CAPA-1280x720.webp" class="img-fluid" alt="...">
+    <h2 class="text-center mb-4">Escolha o melhor lugar!</h2>
+    <div class="row"> 
+        <div class="property-list">
+            <div class="property-list">
+                <!-- Property 1 -->
+                <div class="property-card">
+                    <img src="img/casa-a-venda-no-condominio-mansoes-barra-da-tijuca1714488604310jlbvv.jpg" alt="Casa 1">
+                    <h3>Vende Mansão em condomínio RJ</h3>
+                    <p><strong>Área construída:</strong> 329 m²</p>
+                    <p><strong>Área do terreno:</strong> 634 m²</p>
+                    <p><strong>Quartos:</strong> 5</p>
+                    <p><strong>Suíte:</strong> 2</p>
+                    <p><strong>Banheiros:</strong> 4</p>
+                    <p><strong>Vagas:</strong> 3</p>
+                    <p><strong>Preço:</strong> R$ 3.300.000</p>
+                    <button onclick="verMais('Esta casa está localizada na famosa Barra da Tijuca, conhecida pelas suas belas praias e infraestrutura de alto padrão. A poucos minutos dos shoppings BarraShopping e Village Mall, além de estar próxima de escolas e academias renomadas. Um verdadeiro paraíso carioca!')">Ver Mais</button>
+                </div>
+            
+                <!-- Property 2 -->
+                <div class="property-card">
+                    <img src="img/moderna-e-nova-casa-a-venda-no-alphaville-litoral-8.jpg" alt="Casa 2">
+                    <h3>Vende Casa Moderna em Alphaville</h3>
+                    <p><strong>Área construída:</strong> 359 m²</p>
+                    <p><strong>Área do terreno:</strong> 844 m²</p>
+                    <p><strong>Quartos:</strong> 6</p>
+                    <p><strong>Suíte:</strong> 3</p>
+                    <p><strong>Banheiros:</strong> 3</p>
+                    <p><strong>Vagas:</strong> 4</p>
+                    <p><strong>Preço:</strong> R$ 4.700.000</p>
+                    <button onclick="verMais('Com uma localização privilegiada em Alphaville, um dos bairros mais exclusivos da região metropolitana de São Paulo, esta casa oferece fácil acesso às principais rodovias e centros empresariais. Perfeita para quem valoriza conforto, segurança e proximidade ao trabalho.')">Ver Mais</button>
+                </div>
+            
+                <!-- Property 3 -->
+                <div class="property-card">
+                    <img src="IMG/Espetacular-casa-moderna-a-venda-Vilas-do-Atlântico-26.jpg" alt="Casa 3">
+                    <h3>Aluguel de Casa no Vilas do Atlântico</h3>
+                    <p><strong>Área construída:</strong> 430 m²</p>
+                    <p><strong>Área do terreno:</strong> 788 m²</p>
+                    <p><strong>Quartos:</strong> 4</p>
+                    <p><strong>Suíte:</strong> 2</p>
+                    <p><strong>Banheiros:</strong> 3</p>
+                    <p><strong>Vagas:</strong> 2</p>
+                    <p><strong>Preço:</strong> R$ 2.500</p>
+                    <button onclick="verMais('A localização é uma das melhores do bairro, com infraestrutura completa: ruas asfaltadas, iluminação pública, transporte de qualidade e comércios locais que atendem a todas as necessidades do dia a dia. Ideal para quem busca um ótimo custo-benefício sem abrir mão de comodidade.')">Ver Mais</button>
+                </div>
+            </div>
+            
+            <!-- Property List 2 -->
+            <div class="property-list">
+                <!-- Property 4 -->
+                <div class="property-card">
+                    <img src="img/apartamento-duplex.jpg" alt="Casa 4">
+                    <h3>Aluguel de Apartamento duplex em São Paulo</h3>
+                    <p><strong>Área construída:</strong> 320 m²</p>
+                    <p><strong>Área do terreno:</strong> 788 m²</p>
+                    <p><strong>Quartos:</strong> 2</p>
+                    <p><strong>Suíte:</strong> 1</p>
+                    <p><strong>Banheiros:</strong> 2</p>
+                    <p><strong>Vagas:</strong> 2</p>
+                    <p><strong>Preço:</strong> R$ 800,00</p>
+                    <button onclick="verMais('Localizada no charmoso bairro de Vilas do Atlântico, em Salvador, esta casa oferece a combinação ideal de tranquilidade e acesso à vida urbana. A poucos minutos das belas praias da região e com excelentes opções de restaurantes e comércio local.')">Ver Mais</button>
+                </div>
+            
+                <!-- Property 5 -->
+                <div class="property-card">
+                    <img src="img/mass.jfif" alt="Casa 5">
+                    <h3>Aluguel apartamento em Belo Horizonte-BH</h3>
+                    <p><strong>Área construída:</strong> 320 m²</p>
+                    <p><strong>Área do terreno:</strong> 555 m²</p>
+                    <p><strong>Quartos:</strong> 4</p>
+                    <p><strong>Suíte:</strong> 2</p>
+                    <p><strong>Banheiros:</strong> 3</p>
+                    <p><strong>Vagas:</strong> 5</p>
+                    <p><strong>Preço:</strong> R$ 1.500</p>
+                    <button onclick="verMais('Localizado em uma das áreas mais nobres de Belo Horizonte, este encantador apartamento duplex oferece conforto, sofisticação e praticidade para quem deseja viver em grande estilo. Com dois andares, o imóvel proporciona um layout moderno e bem distribuído, ideal para quem busca um ambiente amplo e acolhedor.')">Ver Mais</button>
+                </div>
+            
+                <!-- Property 6 -->
+                <div class="property-card">
+                    <img src="img/de-martin-construtora-oferece-facilidades-de-pagamento--387040-article.webp" alt="Casa 6">
+                    <h3>Aluguel de apartamento Vilas do Atlântico-BA</h3>
+                    <p><strong>Área construída:</strong> 380 m²</p>
+                    <p><strong>Área do terreno:</strong> 937 m²</p>
+                    <p><strong>Quartos:</strong> 3</p>
+                    <p><strong>Suíte:</strong> 2</p>
+                    <p><strong>Banheiros:</strong> 3</p>
+                    <p><strong>Vagas:</strong> 2</p>
+                    <p><strong>Preço:</strong> R$ 2.450</p>
+                    <button onclick="verMais('A poucos minutos do Centro da cidade, o imóvel também oferece fácil acesso a principais vias, facilitando o deslocamento para qualquer ponto da cidade.')">Ver Mais</button>
+                </div>
+            </div>
+            
+            <!-- Property List 3 -->
+            <div class="property-list">
+                <!-- Property 7 -->
+                <div class="property-card">
+                    <img src="img/apartamento-5-suites-venda-itaim-bibi-lsiqueiraimoveis-imoveis-apto-leopoldo-couto-magalhaes-11.jpg" alt="Casa 7">
+                    <h3>Vende apartamento Ecoville Curitiba</h3>
+                    <p><strong>Área construída:</strong> 375 m²</p>
+                    <p><strong>Área do terreno:</strong> 920 m²</p>
+                    <p><strong>Quartos:</strong> 4</p>
+                    <p><strong>Suíte:</strong> 2</p>
+                    <p><strong>Banheiros:</strong> 4</p>
+                    <p><strong>Vagas:</strong> 2</p>
+                    <p><strong>Preço:</strong> R$ 2.600</p>
+                    <button onclick="verMais('O bairro é conhecido por sua segurança, com vigilância constante, e possui uma excelente infraestrutura, com escolas, hospitais e supermercados próximos. Para quem aprecia a tranquilidade, a região também conta com áreas verdes e praças, perfeitas para caminhadas e momentos de lazer ao ar livre.')">Ver Mais</button>
+                </div>
+            
+                <!-- Property 8 -->
+                <div class="property-card">
+                    <img src="img/praia brava -floripa.jpg" alt="Casa 8">
+                    <h3>Vende apartamento frente a praia Brava de Flóripa</h3>
+                    <p><strong>Área construída:</strong> 380 m²</p>
+                    <p><strong>Área do terreno:</strong> 920 m²</p>
+                    <p><strong>Quartos:</strong> 3</p>
+                    <p><strong>Suíte:</strong> 1</p>
+                    <p><strong>Banheiros:</strong> 2</p>
+                    <p><strong>Vagas:</strong> 2</p>
+                    <p><strong>Preço:</strong> R$ 480.000</p>
+                    <button onclick="verMais('Este apartamento de alto padrão é o refúgio perfeito para quem deseja acordar todos os dias com a brisa do mar e o som das ondas. Localizado na praia Brava de Flóripa, ele oferece um ambiente sofisticado, com acabamentos de luxo e total integração com o exterior.')">Ver Mais</button>
+                </div>
+            
+                <!-- Property 9 -->
+                <div class="property-card">
+                    <img src="img/vila velha.jpg" alt="Casa 9">
+                    <h3>Vende apartamento frente a praia Vila Velha-ES</h3>
+                    <p><strong>Área construída:</strong> 380 m²</p>
+                    <p><strong>Área do terreno:</strong> 860 m²</p>
+                    <p><strong>Quartos:</strong> 4</p>
+                    <p><strong>Suíte:</strong> 3</p>
+                    <p><strong>Banheiros:</strong> 1</p>
+                    <p><strong>Vagas:</strong> 2</p>
+                    <p><strong>Preço:</strong> R$ 467.000</p>
+                    <button onclick="verMais('O imóvel está localizado na praia de, uma das regiões mais charmosas e procuradas da cidade.')">Ver Mais</button>
+                </div>
+            </div>
+            
+            <script>
+            function verMais(descricao) {
+                alert(descricao); 
+            }
+            </script>
+            
+    </div>
+</section>
+</div>
+</section>
+
+<section id="quem-somos" class="quem-somos">
+    <div class="container">
+        <h2>Quem Somos</h2>
+        <p>Na <strong>Vale Imobiliária</strong>, somos uma equipe apaixonada por transformar sonhos em realidade. Fundada em <strong>1995</strong>, nossa missão é proporcionar aos nossos clientes as melhores oportunidades de imóveis, com confiança, transparência e excelência no atendimento.</p>
+        
+        <h3>Nossa Missão</h3>
+        <p>Oferecer soluções imobiliárias completas, com um portfólio diversificado de imóveis que atendem às necessidades de quem busca a casa dos sonhos ou um bom investimento. Acreditamos em um atendimento humanizado e personalizado, sempre buscando os melhores negócios para nossos clientes.</p>
+
+        <h3>Nossos Valores</h3>
+        <ul>
+            <li><strong>Confiança:</strong> Construímos relações duradouras e de confiança com nossos clientes, sempre cumprindo o que prometemos.</li>
+            <li><strong>Transparência:</strong> Em cada negociação, nossa prioridade é ser transparente, garantindo que você tenha todas as informações para tomar a melhor decisão.</li>
+            <li><strong>Comprometimento:</strong> Estamos comprometidos com a satisfação de nossos clientes e buscamos, a cada dia, superar suas expectativas.</li>
+            <li><strong>Excelência:</strong> Em todas as etapas do processo, nos esforçamos para entregar o melhor atendimento, com qualidade e dedicação.</li>
+        </ul>
+
+        <h3>Por que escolher a Vale Imobiliária?</h3>
+        <p>Contamos com uma equipe altamente capacitada, que está sempre à disposição para ajudar você a encontrar o imóvel ideal. Seja para compra, venda ou aluguel, trabalhamos com as melhores opções do mercado, oferecendo segurança e um atendimento que vai além da simples transação. Aqui, seu sonho de ter o lar perfeito se torna realidade.</p>
+        
+        <h3>Nosso Compromisso</h3>
+        <p>Na <strong>Vale Imobiliária</strong>, temos o compromisso de garantir que cada cliente tenha uma experiência única e sem complicações. Trabalhamos para proporcionar um atendimento ágil e eficiente, com soluções inovadoras e sempre com a melhor qualidade no mercado imobiliário.</p>
+    </div>
+</section>
+
+</div>
+   </div>
+ </div>
+     
+ <div class="container mt-5">
+    <h2 class="text-center mb-4">Entre em Contato</h2>
+
+    <div class="row">
+        <!-- Formulário de Contato -->
+        <div class="col-md-6">
+            <div id="form-contato">
+                <form id="contato-form">
+                    <!-- Nome -->
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" class="form-control" required>
+                    </div>
+                    <!-- Telefone -->
+                    <div class="form-group">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" class="form-control" required>
+                    </div>
+                    <!-- Botão de Enviar -->
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de Sucesso -->
+    <div class="modal fade" id="enviar" tabindex="-1" role="dialog" aria-labelledby="enviarLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enviarLabel">Sucesso!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Entraremos em contato!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Quando o formulário for submetido
+    $('#contato-form').submit(function(e) {
+        // Previne o comportamento padrão de envio do formulário (evitar recarregar a página)
+        e.preventDefault();
+
+        // Exibe o modal de sucesso
+        $('#enviar').modal('show');
+        
+        // Se necessário, você pode processar os dados do formulário aqui (ex: salvar no banco de dados, enviar um e-mail)
+        console.log('Formulário enviado com sucesso');
+    });
+</script>
+
+
+        <!-- Informações de Contato -->
+        <div class="col-md-6">
+            <h3>Nosso Endereço</h3>
+            <p><strong>Endereço:</strong> Rua Esperança, 123, Ipatinga,Iguaçu, Minas Gerais</p>
+            <p><strong>Telefone:</strong> (31)99875-4332</p>
+            <p><strong>Email:</strong> valeimobiliariaoficial@gmail.com</p>
+            <p><strong>Horário de Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2024 Vale Imobiliária | Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
